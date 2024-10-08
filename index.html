@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Conversor de Moedas</h1>
+  <div class="container">
+    <label for="moedaDe">De:</label>
+    <select id="moedaDe">
+      <option value="BRL">Real Brasileiro</option>
+      <option value="USD">Dólar Americano</option>
+      </select>
+    <label for="moedaPara">Para:</label>
+    <select id="moedaPara">
+      <option value="BRL">Real Brasileiro</option>
+      <option value="USD">Dólar Americano</option>
+      </select>
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" placeholder="Digite a quantidade">
+    <button onclick="converter()">Calcular</button>
+    <p id="resultado"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
